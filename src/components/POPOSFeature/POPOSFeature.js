@@ -1,5 +1,4 @@
 import React from 'react'
-import './POPOSFeature.css'
 import Emoji from '../Emoji/Emoji';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { icon } from '@fortawesome/fontawesome-svg-core/import.macro';

@@ -1,4 +1,3 @@
-import './App.css';
 import React from 'react';
 import Header from './Header/Header';
 import Footer from './Footer/Footer';
@@ -9,8 +8,8 @@ const date_year = date_made.getFullYear();
 
 function App() {
   return (
-    <div className="App">
-      <div className='header-background'>
+    <div className="App bg-lime-100">
+      <div className='header-background bg-red-300'>
         <Header />
       </div>
 

@@ -3,7 +3,6 @@
 import React from 'react'
 import { useParams } from 'react-router'
 import data from '../../sfpopos-data.js'
-import './POPOSDetails.css'
 import POPOSFeatureList from '../POPOSFeatureList/POPOSFeatureList.js';
 import Map from '../Map/Map.js';
 

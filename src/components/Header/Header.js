@@ -1,6 +1,6 @@
 // src/Header.js
 import React from 'react';
-import './Header.css';
+//import './Header.css';
 import { NavLink } from 'react-router-dom';
 // import RandomSpace from '../RandomSpace/RandomSpace';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -10,7 +10,7 @@ icon({name: 'user', family: 'classic', style: 'solid'})
 
 function Header() {
   return (
-    <header className="Header">
+    <header className="Header bg-red-300">
       <div className='Header-left'> {/* make this <nav> */}
         <h1>SFPOPOS</h1>
         <div className="Header-Subheader">San Francisco Privately Owned Public Open Spaces</div>

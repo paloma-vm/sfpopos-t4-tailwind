@@ -3,7 +3,6 @@
 
 import React from 'react';
 import POPOSSpace from '../POPOSSpace/POPOSSpace';
-import './POPOSList.css';
 import data from '../../sfpopos-data.js'
 import { useState } from 'react'
 import RandomSpace from '../RandomSpace/RandomSpace';

@@ -1,6 +1,5 @@
 // src/components/Map/Map.js
 import React from 'react';
-import './Map.css';
 // import { Link } from 'react-router-dom';
 
 function Map() {
