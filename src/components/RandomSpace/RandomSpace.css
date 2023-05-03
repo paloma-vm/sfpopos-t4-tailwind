@@ -1,0 +1,24 @@
+/* src/components/RandomSpace/RandomSpace.css */
+.RandomSpace {
+    background-color: rgb(192, 45, 26);
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0.5em;
+}
+
+.random-mobile {
+    display: none;
+}
+
+/* Small screens mobile */
+@media only screen and (max-width: 480px) {
+	.random-desk {
+        display: none;
+		
+	}
+
+    .random-mobile {
+        display: flex;
+        font-size: .9rem;
+    }
+}

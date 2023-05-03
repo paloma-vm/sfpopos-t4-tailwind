@@ -1,0 +1,28 @@
+<img src={logo} alt=""/>
+
+<MyComp message="Hello World" value={42} data={[1,2,3]} />
+
+<img src={`${process.env.PUBLIC_URL}/images/50-california-st.jpg`}      
+
+   <POPOSList />
+      <Footer 
+        name="Paloma Valdez-Marsh"
+        copyright_year="copyright 2023"
+      />
+
+  // document.getElementById('root')
+
+
+  srcset="image-small.jpg 480w,
+                    image-medium.jpg 768w,
+                    image-large.jpg 1200w"
+
+
+
+
+role='img'
+		aria-label={props.name ? props.name:""}
+		aria-hidden={props.name ? "false":"true"} /* This makes the label the name and if it doesn't have a name it is hidden
+		and the screen reader will ignore it */
+
+{/* <img src={process.env.PUBLIC_URL + '/home.png'} className="list-img" alt="home icon" width="40px" height="40px"></img> */}

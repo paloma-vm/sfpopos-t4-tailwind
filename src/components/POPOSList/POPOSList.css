@@ -1,0 +1,108 @@
+/* src/POPOSList.css */
+.POPOSList {
+    /* width: calc(100% - 80px); */
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr;	 */
+    /* grid-gap: 2em; */
+	width: 100%;
+    /* max-width: 1200px; */
+    margin: auto;
+    /* padding: 2em; */
+  }
+
+.POPOSList form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* font-size: 1rem; */
+	
+}
+
+.searchFormLabel {
+	display: none;
+}
+
+.listSearchInput {
+	border-width: 1px 0 1px 1px;
+	border-top-left-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0; 
+	padding: 1em;
+	margin: 0;
+	text-align: center;
+}
+
+.search-button {
+	border-top-right-radius: 0.5em;
+	border-bottom-right-radius: 0.5em; 
+	display: flex;
+	gap: 0.4em;
+	padding: 1em;
+	margin: 0;
+	border: 1px solid;
+	align-self: stretch;
+	align-items: center;
+}
+
+.search-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	border-bottom: 1px solid lightgray;
+	width: 100vw;
+}
+
+.POPOSList-grid {
+    /* width: calc(100% - 80px); */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;	
+    grid-gap: 2em;
+    max-width: 1200px;
+    margin: auto;
+    padding: 2em;
+}
+
+/* Smaller screens and tablets */
+/* @media only screen and (max-width: 768px) {
+	.POPOSList {
+		grid-template-columns: 1fr 1fr;
+	}
+} */
+
+/* Small screens mobile */
+@media only screen and (max-width: 480px) {
+	.POPOSList-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.search-header {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: auto;
+		border-bottom: 1px solid lightgray;
+	}
+	
+	.random-spaces {
+		display: flex;
+	}
+
+	.search-button-label {
+		display: none;
+	}
+
+	.listSearchInput {
+		width: 60%;
+		padding: 0.5em;
+		align-self: stretch;
+	}
+
+	.POPOSList form {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+}

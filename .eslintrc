@@ -1,0 +1,5 @@
+/* This file enables more accessibility rules for the linter*/
+{
+    "extends": ["react-app", "plugin:jsx-a11y/recommended"],
+    "plugins": ["jsx-a11y"]
+}
